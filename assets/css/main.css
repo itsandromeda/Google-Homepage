@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 header {
     font-family: arial, sans-serif;
     color: rgb(117, 117, 117);
@@ -5,9 +11,8 @@ header {
     float: right;
     min-width: 245px;    
     position: relative;
-    padding-top: 8px;
-    
-    padding-right: 15px;
+    padding-top: 15px;    
+    padding-right: 29px;
 }
 
 .nav-a {
@@ -19,9 +24,20 @@ header {
 .nav-text {
     text-decoration: none;
     color: rgb(64, 64, 64);
-    font-size: 12px;
+    font-size: 13px;
     line-height: 24px;
-    padding-right: 15px;
+}
+
+.nt {
+    padding-top: 5px;
+}
+
+.gmail {
+    padding-right: 12px;
+}
+
+.img {
+    padding-right: 18px;
 }
 
 .nav-text:hover {
@@ -29,20 +45,50 @@ header {
 }
 
 .notif {
-    margin-left: 15px;
+    margin-left: 20px;
     margin-right: 15px;
 }
 
 .avatar {
-    height: 28px;
+    height: 32px;
     border-radius: 50%;
     cursor: pointer;
 }
 .material-icons {
+    padding-top: 5px;
     text-decoration: none;
     color: rgb(119, 119, 119);
 }
 
 .material-icons:hover {
     color: rgb(64, 64, 64);
+}
+
+#wrapper {
+    text-align: center;
+    padding-top: 198px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sub-container {
+    margin-right: auto;
+    margin-left: auto;
+    height: 92px;
+    width: 272px;
+}
+
+.logo {
+    height: 92px;
+    position: relative;
+}
+
+#country {
+    width: 45px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: #4285F4;
+    position: relative;
+    left: 210px;
+    top: -21px;
 }
