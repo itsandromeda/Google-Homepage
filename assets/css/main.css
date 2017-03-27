@@ -9,9 +9,9 @@ header {
     color: rgb(117, 117, 117);
     text-align: right;
     float: right;
-    min-width: 245px;    
+    min-width: 245px;
     position: relative;
-    padding-top: 15px;    
+    padding-top: 15px;
     padding-right: 29px;
 }
 
@@ -40,7 +40,8 @@ header {
     padding-right: 18px;
 }
 
-.nav-text:hover {
+.nav-text:hover,
+.lang:hover {
     text-decoration: underline;
 }
 
@@ -49,15 +50,16 @@ header {
     margin-right: 15px;
 }
 
-.avatar {
-    height: 32px;
-    border-radius: 50%;
-    cursor: pointer;
-}
 .material-icons {
     padding-top: 5px;
     text-decoration: none;
     color: rgb(119, 119, 119);
+}
+
+.avatar {
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .material-icons:hover {
@@ -84,11 +86,83 @@ header {
 }
 
 #country {
-    width: 45px;
     font-family: arial, sans-serif;
     font-size: 16px;
     color: #4285F4;
+    width: 45px;
     position: relative;
     left: 210px;
     top: -21px;
+}
+
+#search {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    border-top-color: #EBEBEB;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 0 2px 0 rgba(0, 0, 0, 0.05);
+    height: 25px;
+    width: 570px;
+    padding: 10px 12px;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    width: 540px;
+    height: 28px;
+    margin-top: -2px;
+    outline: none;
+}
+
+.mic {
+    float: right;
+    position: relative;
+}
+
+#search-btns {
+    margin-top: 25px;
+}
+
+.google {
+    margin-right: -20px;
+}
+
+.search-btn {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    min-width: 54px;
+    height: 36px;
+    margin: 11px 2px 25px;
+    padding: 0 16px;
+}
+
+.search-btn:hover {
+    background-color: #F2F2F2;
+    color: #222;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px 0 rgba(0, 0, 0, .1);
+}
+
+.lang {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #1A0DAB;
+    text-decoration: none;
+}
+
+.search-text {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-right: 5px;
 }
