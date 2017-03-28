@@ -9,9 +9,10 @@ header {
     color: rgb(117, 117, 117);
     text-align: right;
     float: right;
-    min-width: 245px;
-    position: relative;
-    padding-top: 15px;
+    min-width: 290px;
+    position: absolute;
+    top: 15px;
+    right: 0;
     padding-right: 29px;
 }
 
@@ -28,19 +29,22 @@ header {
     line-height: 24px;
 }
 
+.nav-text:hover {
+    text-decoration: underline;
+}
+
 .nt {
-    padding-top: 5px;
+    margin-top: 5px;
 }
 
 .gmail {
-    padding-right: 12px;
+    margin-right: 12px;
 }
 
 .img {
-    padding-right: 18px;
+    margin-right: 18px;
 }
 
-.nav-text:hover,
 .lang:hover {
     text-decoration: underline;
 }
@@ -68,7 +72,7 @@ header {
 
 #wrapper {
     text-align: center;
-    padding-top: 198px;
+    margin-top: 198px;
     margin-left: auto;
     margin-right: auto;
 }
